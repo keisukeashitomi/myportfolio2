@@ -98,6 +98,7 @@ header .nav-menu .menu {
 header .nav  {
   text-align: center;
   display: none;
+  list-style: none;
 }
 
 header .nav li a {
