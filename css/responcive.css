@@ -1,0 +1,471 @@
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  /* toppage */
+  header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+  }
+
+
+
+  header img {
+    display: none;
+  }
+
+  header .nav-menu {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  header .nav {
+    display: none;
+  }
+  header .nav li a {
+    display: none;
+  }
+  .hamburger-menu-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger-menu {
+    display: inline-block;
+    margin: 0 0 0 20px; /* 中央寄せしたいだけ */
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  header .nav-menu .menu {
+    padding: 0;
+    display: none;
+  }
+  header .nav-menu .sns {
+    margin: 0 10px 0 0;
+    display: flex;
+  }
+  header .nav-menu .sns p {
+    margin-bottom: 0;
+    display: none;
+  }
+  header .nav-menu .sns div {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+
+/* main */
+  main {
+    margin: 0 auto;
+    width: auto;
+    padding: 0;
+  }
+
+  main .main-image img {
+    width: 100%;
+    padding-top: 70px;
+    height: 300px;
+    object-fit: cover;
+    /* position: relative; */
+  }
+   
+  /* main .logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  } */
+  main .inner {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  main .concept h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  main .concept p {
+    font-size: 12px;
+    line-height: 1;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+  main .concept p:nth-child(3) {
+    margin-bottom: 0;
+  }
+  main .concept .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 125px;
+  }
+
+  /* main .concept .menu  img {
+    width: 100%;
+  } */
+
+  main .line-up .subtitle {
+   margin-bottom: 0;
+ }
+
+ main .text {
+   width: 50%;
+ }
+  main .summer-menu .text p {
+    font-size: 10px;
+    line-height: 1;
+    width: 60%;
+  }
+  main .winter-menu .text p {
+    font-size: 10px;
+    line-height: 1;
+    width: 60%;
+  }
+  main .season-menu .text p {
+    font-size: 10px;
+    line-height: 1;
+    width: 60%;
+  }
+
+/* contact */
+/* #contact main .inner{
+  padding-top: 70px;
+} */
+
+#contact .inner {
+  padding-top: 70px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#contact main .logo {
+  margin: 10px auto 50px;
+  display: flex;
+  justify-content: center;
+}
+#contact main .logo h2 {
+  width: 40%;
+  display: inline-block;
+  color: #105670;
+  font-size: 25px;
+}
+
+#contact .contact-title h2 {
+ text-align: center;
+  margin-bottom: 25px;
+}
+#contact .contact-title p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+#contact .contact-time h2 {
+  text-align: center;
+}
+#contact .contact-time p {
+  font-size: 12px;
+  text-align: center;
+}
+
+#contact .contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+ }
+#contact .contact-form  p {
+  font-size: 12px;
+  width: auto;
+  color: #105670;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+ }
+ #contact .contact-form  p:nth-child(3) {
+  font-size: 12px;
+  width: auto;
+  color: #105670;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+ }
+#contact .name p {
+  font-size: 12px;
+  margin-left: auto;
+}
+#contact .name input {
+  width: 65%;
+  margin-left: auto;
+}
+
+#contact .tel p {
+ font-size: 12px;
+ margin-left: auto;
+}
+#contact .tel input {
+  width: 65%;
+  margin-left: auto;
+}
+
+#contact .mail p {
+ font-size: 12px;
+ margin-left: auto;
+}
+#contact .mail input {
+  width: 65%;
+  margin-left: auto;
+}
+#contact .address p {
+ font-size: 12px;
+ margin-left: auto;
+}
+#contact .address input {
+  width: 65%;
+  margin-left: auto;
+}
+
+#contact .itemname  p {
+  font-size: 12px;
+  margin-left: auto;
+}
+#contact .itemname input {
+  width: 65%;
+  margin-left: auto;
+}
+#contact .itemquantity  p {
+  font-size: 12px;
+  margin-left: auto;
+}
+#contact .itemquantity input {
+  width: 65%;
+  margin-left: auto;
+}
+
+#contact .contactform {
+  margin-bottom: 10px;
+}
+#contact .contactform p {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+#contact .contactform textarea{
+  margin-left: auto;
+  width: 65%;
+  height: auto;
+}
+#contact .contactform textarea p {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+#contact .check {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+#contact .btn {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#contact .btn input {
+  width: auto;
+}
+
+
+
+/* shop */
+#shop .inner {
+  padding: 70px 10px 0 10px;
+  width: 80%;
+}
+
+#shop main .logo {
+  margin: 10px auto 50px;
+  display: flex;
+  justify-content: center;
+}
+#shop main .logo h2 {
+  width: 40%;
+  display: inline-block;
+  color: #105670;
+  font-size: 25px;
+}
+#shop .shop-title p {
+  text-align: center;
+}
+
+#shop .map .shop-contact p:first-child {
+  text-align: center;
+}
+#shop .map .shop-contact p:nth-child(2) {
+text-align: center;
+}
+#shop .map .shop-contact p:nth-child(3) {
+  text-align: center;
+}
+#shop .map .shop-time p:first-child {
+  text-align: center;
+}
+#shop .map .shop-time p:nth-child(n+2) {
+  text-align: center;
+}
+#shop .caution {
+  text-align: center;
+}
+#shop .map-btn {
+  text-align: center;
+}
+
+#shop .image-info {
+  margin: auto;
+  text-align: center;
+}
+
+#shop .map-btn input {
+  width: 100%;
+}
+
+#shop .map {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+#shop .map iframe{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* carender */
+  main .carender-conteiner {
+    width: auto;
+    margin: 0 auto 10px;
+  }
+
+  main .carender {
+    width: auto;
+  }
+
+  main .carender .carender-top {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 5px;
+} 
+
+  main .carender table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  .carender table tr:nth-child(n+2) td {
+   padding-left: 0;
+   text-align: center;
+  }
+  .carender table tr:nth-child(n+2) span {
+    /* color: red; */
+    width: 30px;
+    font-size: 10px;
+    margin: 10px auto 0;
+  }
+
+/* footer */
+  footer {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  
+  
+    footer .footer-left {
+      padding: 10px 0 10px;
+    }
+
+  footer .footer-left .logo img {
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  footer .footer-left .logo {
+    display: flex;
+    justify-content: center;
+  }
+  footer nav {
+    display: flex;
+    justify-content: center;
+  }
+  footer .footer-right {
+    padding: 10px 0 10px;
+    margin: 0 auto;
+    width: 380px;
+    text-align: center;
+   }
+ 
+  footer .footer-right .sns {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  footer .footer-right ul {
+    display: inline-block;
+  }
+  footer .footer-right ul li {
+    text-align: left;
+  }
+  footer .footer-right ul li a {
+    margin: 0;
+    font-size: 10px;
+  }
+  footer nav ul:first-child li a {
+    display: inline-block;
+    font-size: 10px;
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #105670;
+  }
+
+  footer nav ul:nth-child(2) li a {
+    display: inline-block;
+    font-size: 10px;
+    width: auto;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #105670;
+  }
+  footer .footer-right .copy-right {
+    text-align: center;
+  }
+}

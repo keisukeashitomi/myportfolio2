@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terrace Yanbaru｜良くある質問</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responcive.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body id="contact">
+  <header>
+    <div class="nav-menu">
+      <div class="hamburger-menu-container">
+      <div class="hamburger-menu">
+        <div class="hamburger-menu-line line-top"></div>
+        <div class="hamburger-menu-line line-middle"></div> 
+        <div class="hamburger-menu-line line-bottom"></div>
+      </div>
+    <p class="menu">MENU</p>
+  </div>
+
+  <ul class="nav">
+    <li><a href="index.html">Back To Home</a></li>
+    <li><a href="shopinfo.html">店舗のこと</a></li>
+    <li><a href="contact.html">お問合せ</a></li>
+    <li><a href="question.html">よくある質問</a></li>
+    <li><a href="myaccount.html">マイアカウント</a></li>
+  </ul>
+    <div class="sns">
+      <p class="sns">SNS</p>
+    <div><i class="fab fa-facebook my-white1"></i></div>
+    <div><i class="fab fa-instagram my-white2"></i></div>
+    <div><i class="fab fa-twitter my-white3"></i></div>
+  </div>
+    </div>
+    <div class="top-image"> 
+    <figure><img src="./images/top-image-flower.jpg" alt="店舗の外観"></figure>
+  </div>
+  </header>
+
+  <main>
+  <div class="inner">
+  <figure class="logo">
+    <img src="./images/logo.jpg" alt="ロゴ画像">
+    <h2>TERRACE YANBARU</h2>
+  </figure>
+
+  <div class="contact-title">
+    <h2>CONTACT</h2>
+    <p>お問い合わせ</p>
+  </div>
+
+  <div class="contact-time">
+    <h2>電話・FAXでのお問い合わせ・ご注文</h2>
+    <p>TEL・FAX: 1234-5678</p>
+    <p>受付時間 10:00 ~〜18:00（月曜・年末年始除く）</p>
+  </div>
+
+  <div class="contact-form">
+    <h2>御注文・お問合せ用フォーム</h2>
+    <p>ネットから、御注文される場合は以下のフォームから御注文ください。
+      御注文内容をご確認の上、送信完了後、御注文承りのメールを、お送り
+      いたします。万が一ご連絡がない場合は、お手数ですが、1234-5678
+      までご連絡をお願いいたします。
+      </p>
+
+    <p>携帯のメールアドレスを設定のお客様は、「メールの受信拒否、ドメ
+      イン指定受信、迷惑メール防止機能」等を設定している場合、受信が
+      できない場合がありますのでご注意ください。</p>
+  </div>
+
+  <form action="contact.php" method="post">
+
+    <div class="name"><p>お名前</p><input type="text" name="name"></div>
+    <div class="tel"><p>お電話番号</p><input type="text" name="tel"></div>
+    <div class="mail"><p>メールアドレス</p><input type="email" name="mail"></div>
+    <div class="address"><p>お届け先住所</p><input type="text" name="address"></div>
+    <div class="itemname"><p>御注文商品名</p><input type="text" name="itemname"></div>
+    <div class="itemquantity"><p>御注文商品数</p><input type="text" name="itemquantity"></div>
+    <div class="contactform">
+      <p>お問合せ</p>
+      <textarea name="inquiry" id="inquiry" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="check">
+      <input type="checkbox">
+      <p>プライバシーポリシーに同意したことを確認します。</p>
+    </div>
+
+    <div class="btn">
+    <input type="submit" value="送信内容を確認する">
+  </div>
+</form>
+
+</div>
+</main>
+
+
+<footer>
+  
+  <div class="footer-left"> 
+    <div class="logo">
+      <img src="./images/logo.png" alt="ロゴ画像">
+      <h2>TERRACE<br><span>YANBARU</span></h2>
+    </div>
+    
+    <nav>
+      <ul >
+        <li><a href="#">お知らせ</a></li>
+        <li><a href="#">おすすめメニュー</a></li>
+        <li><a href="#">夏季限定メニュー</a></li>
+        <li><a href="#">冬季限定メニュー</a></li>
+      </ul>
+      
+      <ul>
+        <li><a href="#">店舗アクセス</a></li>
+        <li><a href="#">定休日</a></li>
+        <li><a href="#">オンラインショッピング</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+  
+  <div class="footer-right">
+    <div class="sns">
+      <div><i class="fab fa-facebook"></i></div>
+      <div><i class="fab fa-instagram"></i></div>
+      <div><i class="fab fa-twitter"></i></div>
+    </div>
+    
+    <ul>
+      <li><a href="#">お問い合わせ</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">特定商取引法に関する表記</a></li>
+      <li><a href="#">ショッピングサイト</a></li>
+    </ul>
+    
+    <div class="copy-right">
+      <p>&COPY; TERRACE YANBARU</p>
+    </div>
+  </div>
+
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
